@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip"
+    android:paddingTop="2dip"
+    android:paddingBottom="2dip"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <TextView
+            android:id="@+id/title_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/description_item"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/no_password_item"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/player_count_item"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="2"/>
+
+</LinearLayout>
