@@ -24,7 +24,6 @@ public class Const {
     public static final int socketTimeout = 3000;
     public static final int connectTimeout = 3000;
     public static User user;
-    public static final String aes = "BestVpnIsTheBest";
     public static boolean autoLogin = true;
     public static String version;
     public static String autoLoginUsername;
